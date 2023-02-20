@@ -1,0 +1,18 @@
+.main {
+    margin-left: 15%;
+    padding: 2rem;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pp {
+    width: 2.3rem;
+}
+
+.table {
+    font-size: small;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap');
+
+* {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.profile {
+    margin: 0.6rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile>p {
+    font-size: 1.6rem;
+}
+
+.dashboard {
+    border: 3px solid rgb(9, 106, 9);
+    height: 100vh;
+    /* width: 85%;
+    margin-left: 15%; */
+    background-color: rgb(243, 251, 252);
+    margin-left: 20%;
+    padding: 2rem;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #27ae60
+}
+
+.circle p {
+    position: relative;
+    left: 33px;
+    top: 33px;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.major {
+    display: flex;
+    justify-content: space-around;
+}
+
+.primary {
+    margin-top: 1vh;
+    width: 45%;
+}
+
+.secondary {
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.details {
+    display: flex;
+    margin: 1vh 2.5vw;
+    height: 4rem;
+    box-shadow: 0px 0px 1.5px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+}
+
+.icon {
+    font-size: 3rem;
+    margin-right: 0.63rem;
+    margin-bottom: 0.4rem;
+    align-self: center;
+}
+
+.change__password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.change__password button {
+    background-color: #27ae60;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0;
+    padding: 0.2rem;
+}
+
+.detail {
+    /* margin-top: 0.rem; */
+    align-self: center;
+}
+
+.info__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.info__body {
+    margin: 0;
+}

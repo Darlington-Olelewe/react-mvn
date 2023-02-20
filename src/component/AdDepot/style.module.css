@@ -1,0 +1,6 @@
+.main {
+    margin-left: 20%;
+    display: flex;
+
+    gap: 1rem;
+}

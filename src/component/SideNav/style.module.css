@@ -1,0 +1,147 @@
+.nav{
+    background-color: rgb(40, 163, 40);
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .nav{
+        width: 12rem
+    }
+}
+
+
+
+.img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 15%;
+}
+
+.img__div {
+    display: flex;
+    justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap');
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+.sidebar {
+    background-color: green;
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 0;
+
+}
+
+.sidelogo {
+    margin: 2rem 0 0 2.6rem;
+    width: 4.8rem;
+    height: 4.2rem;
+}
+
+.sideTag {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.sideTag ul {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-top: 2.3rem;
+}
+
+.Sidebar_icon {
+
+    margin-right: 0.5rem;
+    width: 1.5rem;
+    color: white;
+    
+}
+
+.sideTag ul li {
+    padding: 1rem 0 1rem 0;
+
+
+}
+
+.sideTag ul li a {
+    text-decoration: none;
+    color: var(--myColor_2);
+    font-size: 1rem;
+}
+
+.sideTag ul li span:hover {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.fund {
+    position: relative;
+    color: white;
+    font-weight: 700;
+    padding-top: 0;
+    height: 1.5rem;
+    margin-bottom: 0.63rem;
+    
+}
+
+.child {
+    color: var(--myColor_2);
+    background: var(--myColor_5);
+    background-color: rgb(11, 122, 11);
+
+}
+
+.child li {
+    color: rgb(174, 184, 179);
+    font-family: 'Exo 2';
+    text-decoration: none;
+    font-style: 'Regular';
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 4.5rem;
+    padding-left: 10px;
+    line-height: 0.5rem;
+    border-top: 1px solid rgb(39, 169, 61);
+    border-bottom: 1px solid rgb(10, 63, 11);
+    
+
+}
+
+ .btn {
+    position: absolute;
+    left: 90%;
+    color: var(--myColor_2);
+}
+
+.linkimg {
+    padding-left: 2.5rem;
+}
+
+.linkchild {
+    text-decoration: none;
+    color: rgb(121, 175, 35);
+} 

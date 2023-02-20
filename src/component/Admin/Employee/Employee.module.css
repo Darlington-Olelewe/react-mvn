@@ -1,0 +1,26 @@
+.main {
+    border: 1px solid black;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.left {
+    width: 6.5rem;
+}
+
+.btns>button {
+    background-color: #27ae60;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0;
+    padding: 0.2rem;
+    margin: 1rem 2rem;
+}

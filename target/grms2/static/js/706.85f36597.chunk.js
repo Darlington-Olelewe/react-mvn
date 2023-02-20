@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgrms=self.webpackChunkgrms||[]).push([[706],{7706:function(r,t,e){e.r(t),e.d(t,{default:function(){return o}});var n=e(9434),c="Chart_chart__-JOh6",s=e(184),o=function(){var r=(0,n.v9)((function(r){return r.user}));return console.log("comming from chart"),console.log(r),(0,s.jsx)("p",{className:c,children:"this is it the chart section of the project"})}}}]);
+//# sourceMappingURL=706.85f36597.chunk.js.map
